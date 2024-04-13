@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#app {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tweet-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#tweet-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#tweet-form button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tweet-feed {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.tweet {
+    margin-bottom: 20px;
+}
+
+.tweet p {
+    margin-bottom: 5px;
+}
+
+.tweet small {
+    color: #666;
+}

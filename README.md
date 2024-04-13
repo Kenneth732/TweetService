@@ -27,12 +27,13 @@ To use the Twitter Clone, follow these steps:
 - JavaScript (ES6)
 
 ## File Structure
-
+```
 twitter-clone/
 ├── index.html
 ├── app.js
+ ____twitter.js
 └── style.css
-
+```
 
 - **index.html**: Main HTML file containing the structure of the application.
 - **app.js**: JavaScript file containing the application logic for posting and rendering tweets.
